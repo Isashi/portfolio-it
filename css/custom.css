@@ -2,3 +2,10 @@
     display: inline-block;
     vertical-align: middle;
 }
+  #footer p.social a.linkedin {
+    background-color: #0077b5;
+}
+
+#footer p.social a.github {
+    background-color: #582879;
+}  
