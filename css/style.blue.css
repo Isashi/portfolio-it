@@ -31,7 +31,7 @@ NAVBAR
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px #5091da;
 }
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .navbar ul.nav > li > a:hover {
     border-top: solid 5px transparent;
   }

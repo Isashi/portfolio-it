@@ -2,9 +2,21 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+<!--[if gt IE 8]><!--><!--<![endif]-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112105547-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112105547-1');
+</script>
+
 <html class="no-js">
-<!--<![endif]-->
+
 
 <head>
     <meta charset="utf-8">
@@ -12,11 +24,11 @@
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Davide Beretta - Web Development</title>
+    <title>Davide Beretta - WebDev</title>
 
     <meta name="keywords" content="">
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Muli" rel="stylesheet" type='text/css'> 
 
     <!-- Bootstrap and Font Awesome css -->
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -66,13 +78,13 @@ _________________________________________________________ -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand scrollTo" href="#intro">Davide Beretta - Web</a>
+                <a class="navbar-brand scrollTo font_two maintitle" href="#intro">Davide Beretta - WebDev</a>
             </div>
 
-            <div class="navbar-collapse collapse" id="navigation">
+            <div class="navbar-collapse collapse font_two" id="navigation">
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">About</a>
+                <ul class="nav navbar-nav navbar-right maintitle">
+                    <li><a href="#about">About me</a>
                     </li>
                     <li><a href="#skills">Skills</a>
                     </li>
@@ -84,7 +96,7 @@ _________________________________________________________ -->
                     </li> -->
                     <li><a href="#contact">Contact</a>
                     </li>
-                    <li class="testo"><a href="#link_italiano">Italiano<img src="img/ita.svg" alt="Italian flag" height="15" width="50"></a>
+                    <li class="social"><a href="index-ita.html" onclick="window.open('index-ita.html','_self')">Italiano<img src="img/ita.svg" alt="Italian flag" height="15" width="50"></a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +107,6 @@ _________________________________________________________ -->
     <!-- /#navbar -->
 
     <!-- *** NAVBAR END *** -->
-
 
     <div id="all">
 
@@ -109,9 +120,9 @@ _________________________________________________________ -->
                         <div class="carousel-caption">
                             <div data-animate="fadeInDown" class="logo">
                                 <!-- <img src="img/logo-mtn.png" alt="logo" width="250"> -->
-                                <h1 data-animate="fadeInDown" style="padding-top: 250px">Davide Beretta</h1>
+                                <h1 data-animate-hover="" data-animate="fadeInDown" style="padding-top: 250px" class="font_two">Davide Beretta</h1>
                             </div>
-                            <h2 data-animate="slideInUp">Web development</h2>
+                            <h2 data-animate-hover="flash" data-animate="slideInUp" class="font_one">Web development</h2>
                         </div>
                     </div>
                 </div>
@@ -127,23 +138,22 @@ _________________________________________________________ -->
                 <div class="row">
 
                     <div class="col-sm-12">
-                        <h2 class="title" data-animate="fadeInDown">About me</h2>
+                        <h2 class="title font_two" data-animate="fadeInDown">About me</h2>
                     </div>
 
                     <div class="col-sm-12">
 
                         <div class="row">
 
-                            <div class="col-sm-6 text-left" data-animate="fadeInUp">
+                            <div class="col-sm-6 text-left font_one" data-animate="fadeInUp">
 
                                 <br>
                                 <br>
-                                <br>
-                                <p>Hi! My name is Davide and I'm a junior <strong>Web Developer</strong> based in Milan, Italy! :)</p>
+                                <p>Hi! My name is Davide and I'm a junior <strong>Web Developer</strong> based in Bergamo, Italy! :)</p>
 
-                                <p>After 5 years in Administration and Controlling Dpt, in <strong>February 2017</strong>, I decided to make a change in my career and I started studying Web Development online with <strong>the Odin Project</strong>, covering the basics and then focusing on Ruby on Rails.</p>
+                                <p>After 5 years in Administration and Controlling department, in <strong>2017</strong>, I decided to take a turn in my career to follow something I'm really passionate about - web development. I have been studying online with <strong>the Odin Project</strong>, starting from the basics and then focusing on Ruby on Rails.</p>
 
-                                <p>I keep learning new things everyday and I'm really flexibile and enthusiastic. At the moment, I'm looking for <strong>job opportunities</strong> in companies to improve my professional experience but I'm also considering <strong>freelance job</strong>, so if you a project to develop, get in touch!</p>
+                                <p>I keep learning new things everyday and I'm really flexible and enthusiastic. At the moment, I'm looking for <strong>job opportunities</strong> in companies to enhance my professional experience but I'm also considering <strong>freelance job</strong>, so if you have a project to develop, get in touch!</p>
 
                             </div>
 
@@ -162,11 +172,11 @@ _________________________________________________________ -->
 
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        Css
+                                        CSS
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                            <span class="sr-only">50</span>
+                                            <span class="sr-only">70</span>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +187,7 @@ _________________________________________________________ -->
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                            <span class="sr-only">70</span>
+                                            <span class="sr-only">50</span>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +198,7 @@ _________________________________________________________ -->
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                            <span class="sr-only">60</span>
+                                            <span class="sr-only">70</span>
                                         </div>
                                     </div>
                                 </div>
@@ -210,6 +220,9 @@ _________________________________________________________ -->
 
                     </div>
 
+                    <p><a href="cv_eng.pdf" onclick="window.open('cv_eng.pdf','_blank')" class="btn btn-primary btn-lg scrollTo font_one">Download resumé (.pdf)</a>
+                    </p>
+
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big" data-animate="bounceIn">
                         <img src="img/about.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">
                     </div>
@@ -225,31 +238,29 @@ _________________________________________________________ -->
         <div class="section text-gradient" id="skills">
             <div class="container">
                 <div class="col-md-12">
-                    <h2 class="title" data-animate="fadeInDown">Skills</h2>
+                    <h2 class="title font_two" data-animate="fadeInDown">Skills</h2>
 
                     <div class="row services">
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"><i class="devicon-rails-plain-wordmark"></i>
                             </div>
-                            <h3 class="heading">Rails</h3>
-                            <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation
-                                breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+                            <h3 class="heading font_two">Ruby on Rails</h3>
+                            <p class="font_one">Rails is a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks.</p>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"> <i class="devicon-html5-plain-wordmark"></i>
                             </div>
-                            <h3 class="heading">HTML</h3>
-                            <p>Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+                            <h3 class="heading font_two">HTML</h3>
+                            <p class="font_one">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web. </p>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"> <i class="devicon-bootstrap-plain-wordmark"></i> 
                             </div>
-                            <h3 class="heading">Bootstrap</h3>
-                            <p>Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no
-                                be deal.</p>
+                            <h3 class="heading font_two">Bootstrap</h3>
+                            <p class="font_one">Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.</p>
                         </div>
 
                     </div>
@@ -258,9 +269,9 @@ _________________________________________________________ -->
 
                     <div class="text-center">
 
-                        <p class="lead">Would you like to know more or just discuss something?</p>
+                        <p class="lead font_two">Would you like to know more or just discuss something?</p>
 
-                        <p><a href="#contact" class="btn btn-default btn-lg scrollTo">Contact me</a>
+                        <p><a href="#contact" class="btn btn-primary btn-lg scrollTo font_one">Contact me</a>
                         </p>
 
                     </div>
@@ -272,204 +283,15 @@ _________________________________________________________ -->
         </div>
         <!-- /.section -->
 
-        <!-- *** SERVICES END *** -->
-
-        <!-- *** TESTIMONIALS ***
-
-
-_________________________________________________________ -->
-
-
-        <!-- RIGA TESTIMONIALS
-
-        <div class="section text-gray" id="testimonials" data-animate="fadeInUp">
-
-            <div class="container">
-                <div class="col-md-12">
-
-                    <div class="mb20">
-                        <h2 class="title" data-animate="fadeInUp">My customers said<br /><span>about me</span></h2>
-
-                        <p class="lead text-center" data-animate="fadeInUp">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
-                    </div>
-
-                    <ul class="owl-carousel testimonials same-height-row" data-animate="fadeInUp">
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly,
-                                        slightly domed and divided by arches into stiff sections.</p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-1.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?
-                                        " he thought. It wasn't a dream.</p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-2.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
-
-                                    <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded
-                                        frame.</p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-3.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
-                                        Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
-                                </div>
-
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-4.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
-                                        Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite
-                                        sad.</p>
-                                </div>
-
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-4.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-        RIGA TESTIMONIALS -->
-
-        <!-- /.section -->
-
-        <!-- *** TESTIMONIALS END *** -->
-
-        <!-- *** SHOWCASE ***
-_______________________________________________________ -->
-
-        <!-- 
-        <div class="section text-parallax parallax-image1" id="services">
-            <div class="container">
-                <div class="row showcase">
-                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
-                        <div class="item">
-                            <div class="icon"><i class="fa fa-align-justify"></i>
-                            </div>
-                            <h4><span class="counter">120</span><br>
-
-			Websites</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
-                        <div class="item">
-                            <div class="icon"><i class="fa fa-users"></i>
-                            </div>
-                            <h4><span class="counter">50</span><br>  
-
-			Satisfied Clients</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
-                        <div class="item">
-                            <div class="icon"><i class="fa fa-copy"></i>
-                            </div>
-                            <h4><span class="counter">320</span><br>
-
-			Projects</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
-                        <div class="item">
-                            <div class="icon"><i class="fa fa-font"></i>
-                            </div>
-                            <h4><span class="counter">333</span><br> 
-
-			Magazines and Brochures</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="dark-mask"></div>
-
-        </div>
-        -->
-        <!-- *** REFERENCES IMAGE ***
-_________________________________________________________ -->
         <div class="section" id="references">
             <div class="container">
                 <div class="col-sm-12">
 
                     <div class="mb20">
-                        <h2 class="title" data-animate="fadeInUp">My work</h2>
+                        <h2 class="title font_two" data-animate="fadeInUp">My work</h2>
 
-                        <p class="lead" data-animate="fadeInUp">Here you can find my latest projects:</p>
+                        <p class="lead font_one" data-animate="fadeInUp">Here you can find my latest projects:</p>
                     </div>
-
-                    <!-- <ul id="filter" data-animate="fadeInUp">
-                        <li class="active"><a href="#" data-filter="all">All</a>
-                        </li>
-                        <li><a href="#" data-filter="webdesign">Webdesign</a>
-                        </li>
-                        <li><a href="#" data-filter="seo">SEO</a>
-                        </li>
-                        <li><a href="#" data-filter="marketing">Marketing</a>
-                        </li>
-                        <li><a href="#" data-filter="other">Other</a>
-                        </li>
-                    </ul> -->
 
                     <div id="detail">
 
@@ -484,52 +306,76 @@ _________________________________________________________ -->
                         <div id="detail-content"></div>
 
                     </div>
-                    <!-- Reference detail -->
 
                     <div id="references-masonry" data-animate="fadeInUp">
 
                         <div class="reference-item" data-category="webdesign">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-1.jpg" class="img-responsive" alt="" />
+                                    <img src="img/sefatac-intro.png" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Safetec Srl</h3> 
-                                        <p>Website for company Safetec Srl</p>
+                                        <h3 class="reference-title font_two">Sefatac Srl</h3> 
+                                        <p class="font_one">Website for company Sefatac Srl</p>
                                     </div>
                                 </a>
 
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
+                                <div class="sr-only reference-description font_one" data-images="img/sefatac_slider1.png,img/sefatac_slider2.png,img/sefatac_slider3.png">
 
-                                    <p>Safetec is an independent specialist, supplying a wide range of systems - from Fire & Gas Detection to Fire Suppression, Emergency Shut Down based in Milano.</p>
+                                    <p>Sefatac is an independent specialist, supplying a wide range of systems - from Fire & Gas Detection to Fire Suppression, Emergency Shut Down based in Ravenna.</p>
 
                                     <p>The website is created using Bootstrap and it consists of 4 pages: Home, Services, Promotions and Contacts.</p>
 
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
+                                        <a class="btn btn-primary" href="https://www.davideberetta.mywire.org/Sefatac/"><i class="fa fa-globe"></i> Visit website</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="reference-item" data-category="seo">
+
+                        <div class="reference-item" data-category="marketing">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-2.jpg" class="img-responsive" alt="" />
+                                    <img src="img/threedays-intro.png" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">FlickrFeed</h3> 
-                                        <p>Personal project to view and download Flickr images</p>
+                                        <h3 class="reference-title font_two">ThreeDays</h3> 
+                                        <p class="font_one">Travelling app</p>
                                     </div>
                                 </a>
 
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
+                                <div class="sr-only reference-description font_one" data-images="img/threedays_slider1.png,img/threedays_slider2.png,img/threedays_slider3.png">
+
+                                    <p>Threedays app is a personal project, created in order to let people to share awesome places and itineraries around the world.</p>
+
+                                    <p>The app is created using Rails and Bootstrap. A User can create itineraries with different places attached to them.</p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://threedays.davideberetta.eu/"><i class="fa fa-globe"></i> Visit website</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="seo">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/flickrfeed-intro.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title font_two">FlickrFeed</h3> 
+                                        <p class="font_one">App to view and download Flickr images</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description font_one" data-images="img/flickrfeed_slider1.png,img/flickrfeed_slider2.png,img/flickrfeed_slider3.png">
 
                                     <p>This personal project uses the Flickr API in order to view and download the pictures from Flickr in a fastest way.</p>
 
                                     <p>A search box and filter let the users select the desidered images and directly download it from the index page.</p>
 
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
+                                        <a class="btn btn-primary" href="https://flickrfeed.davideberetta.eu/"><i class="fa fa-globe"></i> Visit website</a>
                                     </p>
                                 </div>
                             </div>
@@ -538,49 +384,25 @@ _________________________________________________________ -->
                         <div class="reference-item" data-category="marketing">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-3.jpg" class="img-responsive" alt="" />
+                                    <img src="img/icedream-intro.png" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">IceDream</h3> 
-                                        <p>Website for ice-cream shop</p>
+                                        <h3 class="reference-title font_two">IceDream</h3> 
+                                        <p class="font_one">Website for ice-cream shop</p>
                                     </div>
                                 </a>
 
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
+                                <div class="sr-only reference-description font_one" data-images="img/icedream_slider1.png,img/icedream_slider2.png,img/icedream_slider3.png">
 
                                     <p>IceDream is a historic ice-cream shop based in Cassano, Milano. From an idea of ice-cream maker Lorenzo, since 1988 IceDream produces artigianal ice-cream and yogurts.</p>
 
                                     <p>The website, created with Bootstrap, consists of a landing page with carousels, pictures and it displays the personal contacts of the ice-cream shop.</p>
 
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
+                                        <a class="btn btn-primary" href="https://www.davideberetta.mywire.org/IceDream/"><i class="fa fa-globe"></i> Visit website</a>
                                     </p>
                                 </div>
 
-                            </div>
-                        </div>
-
-                        <div class="reference-item" data-category="marketing">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-4.jpg" class="img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">...</h3> 
-                                        <p>...</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>...</p>
-
-                                    <p>...</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                    </p>
-                                </div>
                             </div>
                         </div>
 
@@ -593,12 +415,6 @@ _________________________________________________________ -->
             </div>
             <!-- /.container -->
         </div>
-        <!-- /.section -->
-
-        <!-- *** REFERENCES END *** -->
-
-        <!-- *** CUSTOMERS ***
-_________________________________________________________ -->
 
         <div class="section text-gray" id="customers">
             <div class="container">
@@ -665,17 +481,12 @@ _________________________________________________________ -->
         </div>
         <!-- /.section -->
 
-        <!-- *** CUSTOMERS END *** -->
-
-        <!-- *** CONTACT ***
-_________________________________________________________ -->
-
         <div class="section contact" id="contact" data-animate="bounceIn">
             <div class="container">
                 <div class="col-md-12">
 
 
-                    <h2 class="title">Contact me</h2>
+                    <h2 class="title font_two">Contact me</h2>
 
                     <div class="row">
 
@@ -690,19 +501,19 @@ _________________________________________________________ -->
 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
+                                            <input type="text" name="name" class="form-control font_one" placeholder="Your firstname *" required="required">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
+                                            <input type="text" name="surname" class="form-control font_one" placeholder="Your lastname *" required="required">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
+                                            <input type="text" name="email" class="form-control font_one" placeholder="Your email *" required="required">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" name="phone" class="form-control" placeholder="Your phone">
+                                            <input type="text" name="phone" class="form-control font_one" placeholder="Your phone">
                                         </div>
                                         <div class="col-md-12">
-                                            <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
+                                            <textarea name="message" class="form-control font_one" placeholder="Message for me *" rows="4" required="required"></textarea>
                                         </div>
                                         <div class="col-md-12 text-center">
                                             <input type="submit" class="btn btn-primary btn-lg" value="Send message">
@@ -721,8 +532,6 @@ _________________________________________________________ -->
             <!-- /.container -->
         </div>
         <!-- /.section -->
-
-        <!-- *** CONTACT END *** -->
 
         <!-- *** MAP ***
 _________________________________________________________ -->
@@ -745,24 +554,19 @@ _________________________________________________________ -->
                     <div class="col-sm-6">
 
                         <p class="social">
-                            <a href="#" class="external facebook" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="external linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
-                            <a href="#" class="external gplus" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="email" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
-                            <a href="#" class="github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
+                            <a href="https://www.facebook.com/beretta.davide" class="external facebook" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/davide-beretta-289183b0/" class="external linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+                            <!-- <a href="#" class="external gplus" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-google-plus"></i></a> -->
+                            <a href="mailto:davide@davideberetta.eu" class="email" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
+                            <a href="https://github.com/Isashi" class="github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
                         </p>
                     </div>
                     <!-- /.6 -->
 
                     <div class="col-sm-6">
-                        <p>&copy; 2017 Davide Beretta. All rights reserved.</p>
+                        <p>&copy; 2018 Davide Beretta. All rights reserved.</p>
                     </div>
-
-                    <div class="col-sm-12">
-                        <p class="template-bootstrapious">Template by <a href="https://bootstrapious.com/e-commerce-templates">Bootstrapious</a></p>
-                        
-                        <!-- Please do not remove the backlink to us, unless you support the development at https://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
-                        
+                    
                     </div>
 
                 </div>
@@ -815,10 +619,6 @@ _________________________________________________________ -->
     <!-- main js file -->
 
     <script src="js/front.js"></script>
-
-    
-
-
 
 </body>
 

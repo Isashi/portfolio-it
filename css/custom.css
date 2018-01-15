@@ -9,3 +9,22 @@
 #footer p.social a.github {
     background-color: #582879;
 }  
+
+.font_one {
+	font-family: 'Muli', serif !important;
+}
+
+.font_two {
+	font-family: 'Hammersmith One', cursive;
+}
+
+body {
+	margin: 0px !important;
+}
+
+.maintitle {
+	font-size: 20px;
+}
+
+
+    
